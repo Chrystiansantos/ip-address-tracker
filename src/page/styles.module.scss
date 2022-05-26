@@ -1,0 +1,32 @@
+.container {
+  form {
+    margin: -10rem auto 0;
+  }
+
+  main {
+    margin: -5rem auto 0;
+    position: relative;
+    z-index: 1000;
+  }
+
+  // .mapContain {
+  // background-color: green;
+  // }
+
+  @media only screen and (max-width: 900px) {
+    main {
+      margin: -9rem auto 0;
+    }
+
+    // .mapContain {
+    //   min-height: calc(100vh - 16rem);
+    //   margin-top: -9rem;
+    // }
+  }
+
+}
+
+.leaflet-container {
+  height: calc(100vh - 16rem) !important;
+  margin-top: -5rem;
+}

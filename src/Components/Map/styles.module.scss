@@ -1,0 +1,13 @@
+.container {
+  // height: calc(100vh - 10rem - 6rem);
+  height: 100%;
+
+  @media screen and (max-width: 900px) {
+    height: calc(100vh - 10rem - 6rem);
+  }
+}
+
+// .mapContain {
+//   height: calc(100vh - 16rem);
+//   margin-top: -5rem;
+// }
