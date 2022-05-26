@@ -1,11 +1,12 @@
 import styles from './styles.module.scss'
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import { FormEvent } from 'react';
+import { Id } from 'react-toastify';
 
 interface IInput {
   value: string;
   setValue: (data: string) => void;
-  fetchData: (event: FormEvent) => Promise<void>;
+  fetchData: (event: FormEvent) => Promise<void | Id>;
 }
 
 export function Input({ value, setValue, fetchData }: IInput) {
