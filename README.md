@@ -9,12 +9,12 @@ Esta é uma solução para o desafio do rastreador de endereços  [IP address tr
 Pra fazer a instalação e execução do projeto precisamos executar o seguinte comando:
 
 ```bash
-❯ gh repo clone Chrystiansantos/ && cd NLW_Next.js && yarn && yarn dev 
+❯ gh repo clone https://github.com/Chrystiansantos/ip-address-tracker && cd ip-address-tracker && yarn && yarn dev 
 ```
 
 ## Example
 
-<div style="width:1400px; margin:auto; display:flex; justify-content: space-between">
-  <img width="1077" alt="image" src="https://user-images.githubusercontent.com/33062949/170533571-47a204bb-8952-4f26-9adb-2c2bd28b8d14.png">
-  <img width="269" alt="image" src="https://user-images.githubusercontent.com/33062949/170593293-060cd24e-d274-4fde-b513-491ca7aa8e43.png">
+<div>
+  <img width="700" alt="image" src="https://user-images.githubusercontent.com/33062949/170533571-47a204bb-8952-4f26-9adb-2c2bd28b8d14.png">
+  <img width="200" alt="image" src="https://user-images.githubusercontent.com/33062949/170593293-060cd24e-d274-4fde-b513-491ca7aa8e43.png">
 </div>
